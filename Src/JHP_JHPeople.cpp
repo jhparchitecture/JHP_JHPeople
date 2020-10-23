@@ -81,7 +81,7 @@ API_AddonType	__ACENV_CALL	CheckEnvironment (API_EnvirParams* envir)
 GSErrCode	__ACENV_CALL	RegisterInterface (void)
 {
 	GSErrCode err = NoError;
-	err = ACAPI_Register_Menu (JHP_JHPEOPLE_MENU_STRINGSID, 0, MenuCode_UserDef, MenuFlag_Default);
+	err = ACAPI_Register_Menu (JHP_JHPEOPLE_MENU_STRINGSID, 0, MenuCode_UserDef, MenuFlag_SeparatorAfter);
 
 
 	return NoError;
